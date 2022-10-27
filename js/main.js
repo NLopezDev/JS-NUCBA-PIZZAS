@@ -127,3 +127,49 @@ switch (fruta){
         console.log("No se que soy");
         break;    
 }
+
+const pizzas = ["1", "2", "3", "4", "5", "6", "7"];
+const sabores = ["Napolitana", "Muzzarella", "Con jamon", "Fugazzeta", "Calabresa", "Rucula"];
+
+
+const pizza1 = {
+    id: 1,
+    nombre: "Napolitana",
+    ingredientes: "tomate, queso, albahaca, aceote de oliva",
+    precio: 480,
+};
+
+const pizza2 = {
+    id: 2,
+    nombre: "Muzzarella",
+    ingredientes: "salsa, muzzarella",
+    precio: 380,
+};
+
+const pizza3 = {
+    id: 3,
+    nombre: "Con jamon",
+    ingredientes: "muzzarella, fetas de jamon, variantes con morrones, rucula o jamon crudo",
+    precio: 520,
+};
+
+const pizza4 = {
+    id: 4,
+    nombre: "Fugazzeta",
+    ingredientes: "queso muzzarella, y rodajas finas de cebolla",
+    precio: 520,
+};
+
+const pizza5 = {
+    id: 5,
+    nombre: "Calabresa",
+    ingredientes: "queso muzzarella, longaniza calabresa o chorizo seco",
+    precio: 580,
+};
+
+const pizza6 = {
+    id: 6,
+    nombre: "Rucula",
+    ingredientes: "queso muzzarella, rucula, oregano, aceitunas",
+    precio: 4700,
+};
